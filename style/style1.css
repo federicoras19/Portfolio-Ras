@@ -3,8 +3,8 @@
     margin: 0rem;
     font-family: 'IBM Plex Mono', monospace;
     background-color: rgb(14, 14, 14);
-    border-style: solid;
-    border-color: #FFFFFF;
+    /* border-style: solid;
+    border-color: #FFFFFF; */
     color: #FFFFFF;
 } 
 body{
@@ -17,45 +17,47 @@ header{
     flex-direction: column;
     align-items: center;
     padding: 30px 0px 30px 0px;
-    font-size: 24px;
+    font-size: 7vw;
 }
 header>div{
     background-image: url("../img/Profile-IMG.jpg");
-    height: 100px;
-    width: 100px;
+    height: 20vh;
+    width: 80vw;
     border-radius: 22px;
-    background-position: center;
+    background-repeat: no-repeat;
+    background-position-y: -5vh;
     background-size: cover;
-    margin-bottom: 10px;
 }
 .text{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 20px;
-    padding-top: 30px;
+    font-size: 1rem;
 }
 .text>h2{
     font-weight: lighter;
     text-decoration: underline;
+    margin-top: 5vh;
     margin-bottom: 10px;
 }
 .text>p{
     width: 80vw;
     font-style: italic;
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     height: 90vw;
 }
+
 footer{
-    position: absolute;
-    bottom: 2vh;
+    margin-top: 10vh;
     width: 90vw;
     display: flex;
     justify-content: space-between;
+    align-items:flex-end;
 }
 button{
     border-style: none;
+    font-size: 5vw;
 }
 a{
     text-decoration: none;
