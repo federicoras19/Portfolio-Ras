@@ -39,6 +39,8 @@ div>span{
     background: transparent;
 }
 footer{
+    position: absolute;
+    bottom: 30px;
     margin-top: 1vh;
     width: 90vw;
     display: flex;
