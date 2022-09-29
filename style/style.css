@@ -18,20 +18,33 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: transparent;
 }
 .decoration{
     display: block;
-    letter-spacing: -15px;
-    font-weight: bolder;
+    letter-spacing: -20px;
+    background-color: transparent;
 }
+@keyframes ConsoleEffect {
+    0%{opacity: 100%;}
+    50%{opacity: 0%;}
+    0%{opacity: 100%;}
+}
+.line{
+    display: block;
+    letter-spacing: -20px;
+    background-color: transparent;
+    animation: ConsoleEffect 1500ms infinite;
+}
+
 .Title{
     display: block;
-    font-weight:lighter;
+    font-weight: lighter;
 }
 header>div{
-    border-color: rgb(88, 88, 88);
+    /* border-color: rgb(88, 88, 88);
     height: 125px; 
-    width: 300px;
+    width: 300px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,6 +54,8 @@ header>div{
 .Menu{
     display: flex;
     flex-direction: column;
+    position: relative;
+    bottom: -70px;
 }
 button{
     margin-top: 40px;
@@ -49,11 +64,4 @@ button{
 }
 a{
     text-decoration: none;
-}
-footer{
-    position: absolute;
-    bottom: 0px;
-}
-footer>span{
-    color: rgb(255, 0, 0);
 }
