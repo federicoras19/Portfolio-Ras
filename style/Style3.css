@@ -40,7 +40,7 @@ div>span{
 }
 footer{
     position: absolute;
-    bottom: 30px;
+    bottom: 1vh;
     margin-top: 1vh;
     width: 90vw;
     display: flex;
