@@ -3,8 +3,8 @@
     margin: 0rem;
     font-family: 'IBM Plex Mono', monospace;
     background-color: rgb(14, 14, 14);
-    /* border-style: solid;
-    border-color: #FFFFFF; */
+    border-style: solid;
+    border-color: #FFFFFF;
     color: #FFFFFF;
 } 
 body{
@@ -28,7 +28,6 @@ header>div{
     background-size: cover;
     margin-bottom: 10px;
 }
-
 .text{
     display: flex;
     flex-direction: column;
@@ -36,7 +35,6 @@ header>div{
     font-size: 20px;
     padding-top: 30px;
 }
-
 .text>h2{
     font-weight: lighter;
     text-decoration: underline;
@@ -49,7 +47,6 @@ header>div{
     font-size: 18px;
     height: 90vw;
 }
-
 footer{
     position: absolute;
     bottom: 2vh;
@@ -57,11 +54,9 @@ footer{
     display: flex;
     justify-content: space-between;
 }
-
 button{
     border-style: none;
 }
-
 a{
     text-decoration: none;
 }
