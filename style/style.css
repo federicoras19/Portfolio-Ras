@@ -21,16 +21,17 @@ body{
 }
 .decoration{
     display: block;
-    letter-spacing: -20px;
+    letter-spacing: -15px;
+    font-weight: bolder;
 }
 .Title{
     display: block;
-    font-weight: lighter;
+    font-weight:lighter;
 }
 header>div{
-    /* border-color: rgb(88, 88, 88);
+    border-color: rgb(88, 88, 88);
     height: 125px; 
-    width: 300px; */
+    width: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,8 +41,6 @@ header>div{
 .Menu{
     display: flex;
     flex-direction: column;
-    /* width: 300px;
-    height: 250px; */
 }
 button{
     margin-top: 40px;
@@ -51,10 +50,10 @@ button{
 a{
     text-decoration: none;
 }
-/* footer{
-    position: relative;
+footer{
+    position: absolute;
     bottom: 0px;
-} */
+}
 footer>span{
     color: rgb(255, 0, 0);
 }
