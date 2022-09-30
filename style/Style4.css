@@ -60,12 +60,12 @@ div.networks{
 }
 .icons{
     display: flex;
-    justify-content: space-around;
-    width: 80vw;
+    justify-content: space-evenly;
+    align-items: center;
 }
-div>i{
-    padding-top: 5vh;
-    font-size: 50px
+div>a{
+    padding-top: 2vh;
+    font-size: 8vh;
 }
 
 footer{
