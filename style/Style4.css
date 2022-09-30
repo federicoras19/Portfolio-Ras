@@ -19,33 +19,53 @@ header{
     padding: 30px 0px 30px 0px;
     font-size: 7vw;
 }
-header>div{
-    background-image: url("../img/Profile-IMG.jpg");
-    height: 20vh;
-    width: 80vw;
-    border-radius: 22px;
-    background-repeat: no-repeat;
-    background-position-y: -5vh;
-    background-size: cover;
+header>h2{
+    font-weight:lighter;
 }
-.text{
+section{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 1rem;
 }
-.text>h2{
-    font-weight: lighter;
-    text-decoration: underline;
-    margin-top: 5vh;
-    margin-bottom: 10px;
-}
-.text>p{
+div{
+    height: 20vh;
     width: 80vw;
+}
+.conctac{
+    font-weight: bold;
+}
+.prop{
+    color: #c7c7c7;
     font-style: italic;
-    text-align: left;
-    font-size: 16px;
-    height: 90vw;
+    font-size: 14px;
+    font-weight: lighter;
+}
+div.map{
+    background-image: url("../img/continente.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 15vh;
+    width: 80vw;
+}
+div.location{
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+div.networks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vh;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+    width: 80vw;
+}
+div>i{
+    padding-top: 5vh;
+    font-size: 50px
 }
 
 footer{
