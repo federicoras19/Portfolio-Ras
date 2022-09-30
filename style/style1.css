@@ -47,6 +47,20 @@ header>div{
     font-size: 16px;
     height: 90vw;
 }
+.text>h2{
+    display: block;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 12ch;
+    animation: typing 1s steps(12), blink .5s 12 step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing {
+    from{width: 0;}
+}
+@keyframes blink {
+    50% {border-color: transparent}
+}
 
 footer{
     position: absolute;
