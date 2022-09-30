@@ -28,7 +28,7 @@ section{
     align-items: center;
 }
 div{
-    height: 20vh;
+    height: 15vh;
     width: 80vw;
 }
 .conctac{
@@ -37,7 +37,7 @@ div{
 .prop{
     color: #c7c7c7;
     font-style: italic;
-    font-size: 14px;
+    font-size: 2.5vh;
     font-weight: lighter;
 }
 div.map{
